@@ -1,7 +1,7 @@
 {
-  "name": "Customer-Satisfaction-Survey",
-  "short_name": "Customer-Satisfaction-Survey",
-  "description": "แบบสำรวจความพึงพอใจห้องปฏิบัติการพยาธิวิทยาคลินิกและเทคนิคการแพทย์",
+  "name": "Customer Satisfaction Survey",
+  "short_name": "Customer Satisfaction Survey",
+  "description": "แบบสำรวจความพึงพอใจห้องปฏิบัติการ",
   "start_url": "./Customer-Satisfaction-Survey.html",
   "display": "standalone",
   "orientation": "portrait",
