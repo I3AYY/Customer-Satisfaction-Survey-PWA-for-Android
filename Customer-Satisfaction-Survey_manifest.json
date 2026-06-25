@@ -1,6 +1,6 @@
 {
   "name": "Customer Satisfaction Survey",
-  "short_name": "Customer Satisfaction Survey",
+  "short_name": "CSS",
   "description": "แบบสำรวจความพึงพอใจห้องปฏิบัติการ",
   "start_url": "./Customer-Satisfaction-Survey.html",
   "display": "standalone",
