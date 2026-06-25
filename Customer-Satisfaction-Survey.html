@@ -2,7 +2,8 @@
 <html lang="th">
 <head>
     <meta charset="utf-8">
-    <title>FineStamp</title>
+    <!-- แก้ไข Title จาก FineStamp เป็น Customer Satisfaction Survey -->
+    <title>Customer Satisfaction Survey</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
     <base target="_top">
 
@@ -11,7 +12,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Customer-Satisfaction-Survey">
-    <link rel="apple-touch-icon" href="https://img2.pic.in.th/FineStamp-logo-for-ios.png">
+    <!-- แก้ไขรูปไอคอนของ Apple iOS ให้เป็นโลโก้ของ CSS แทนโลโก้ของ FineStamp -->
+    <link rel="apple-touch-icon" href="https://img2.pic.in.th/CSS_Logo.png">
 
     <meta name="theme-color" content="#0d9488">
 
@@ -48,7 +50,8 @@
             animation: spin 1s linear infinite;
         }
 
-        .title-text { color: #1e293b; font-size: 24px; font-weight: 700; margin: 16px 0 4px 0; letter-spacing: -0.5px; }
+        /* เพิ่ม text-align: center เพื่อจัดกึ่งกลางข้อความเผื่อจอ Tablet ที่กว้างขึ้น */
+        .title-text { color: #1e293b; font-size: 24px; font-weight: 700; margin: 16px 0 4px 0; letter-spacing: -0.5px; text-align: center; }
         .version-text { color: #64748b; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
 
         @keyframes spin { 100% { transform: rotate(360deg); } }
@@ -58,7 +61,7 @@
             100% { transform: scale(1); }
         }
 
-        /* Dark mode support สำหรับหน้าจอโหลด (อิงตามระบบมือถือ) */
+        /* Dark mode support สำหรับหน้าจอโหลด (อิงตามระบบมือถือ/แท็บเล็ต) */
         @media (prefers-color-scheme: dark) {
             body, html, #loader-container { background-color: #0f172a; }
             .title-text { color: #f8fafc; }
